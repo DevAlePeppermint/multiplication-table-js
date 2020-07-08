@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+/*O box sizing padrão do arquivo é o content box, ou seja, o conteudo da caixa determinando seu tamanho */
+/*Na "border-box" nós determinamos o tamanho maximo da caixa, independente do tamanho dos conteudos dentro dela*/
+
+
+
+body{
+    
+    background:beige ;
+}
+
+
+header a {
+    text-decoration: none;
+    color: green;
+}
+
+
+header h1 {
+
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: grey;
+}
+
+
+footer {
+
+    font-size: 0.8em;
+}
+
+
+footer a {
+
+    text-decoration: none;
+}
+
+
+.content-tabuada{
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    border: silver 1px solid;
+}
+
+.content-tabuada h1{
+    color: black;
+
+}
+
+
+.content-tabuada table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+.content-tabuada td{
+    padding: .75rem;
+    border-top: 1px solid #DEe2E6;
+}
+
+
+.content-tabuada tbody tr:nth-child(odd){
+    /*nth-child vai selecionar os elementos com base em suas posições em um grupo de irmãos*/
+    /*Dentro do () aceita-se valores inteiros, ood(impar) even (par) e expressões do tipo (3n, onde n será a sequencia de números positivos inteiros) */
+    background-color: rgba(0,0,0,.05);
+
+}
+
+
+.content-tabuada tbody tr:hover {
+    background-color: rgba(0,0,0,.15);
+}
+
+#valorA {
+    width: 100%;
+    padding: 10px;
+
+}
